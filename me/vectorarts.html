@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Artworks</title>
+      <meta charset="utf-8"/>  
+      <link rel="stylesheet" href="css/style.css" type="text/css"/>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+	<link rel="stylesheet" href="demo/style.css">
+	<link rel="stylesheet" href="src/css/swipebox.css">
+	<title>Swipebox | A touchable jQuery lightbox</title>
+	<!-- share buttons -->
+	<script type="text/javascript">(function(doc, script) {
+		var js, 
+		fjs = doc.getElementsByTagName(script)[0],
+		add = function(url, id) {
+		if (doc.getElementById(id)) {return;}
+		js = doc.createElement(script);
+		js.src = url;
+		id && (js.id = id);
+		fjs.parentNode.insertBefore(js, fjs);
+		};add("//connect.facebook.net/en_US/all.js#xfbml=1", "facebook-jssdk");
+		add("//platform.twitter.com/widgets.js", "twitter-wjs");
+		}(document, "script"));
+	</script>
+    </head>
+	<body>
+	<div class="wrapp">
+	<div class="wrappe">
+	<div class="navilogo">
+				<a href="index.html"><img src= "img/bann.png"></a>
+	</div>
+
+	<div class="navi">
+				<nav><ul>
+					<li><a href="act.html">PORTFOLIO</a></li>
+					<li class="active"><a href="vectorarts.html">ARTWORKS</a></li>
+					<li><a href="aboutme.html">ABOUT</a></li>
+					<li><a href="contactme.html">CONTACT</a></li>				
+				</ul></nav>
+	</div>
+	<div class="sm">
+			<a href="https://www.facebook.com/Oakenshield58"><img src= "img/gmail.png"></a>
+			<a href="https://mail.google.com/mail/#inbox"><img src= "img/fb.png"></a>
+	</div>
+	</div>
+	</div>
+	<div class="wrapper">
+	<center>
+	<div class="title">
+	<h1>ARTWORKS</h1>
+	</div>
+	</center>
+	<div class="content-g">
+	<section id="exemple" class="container">
+		<div class="wrap small-width">
+			<div id="try"></div>
+			<ul id="box-container">
+				<li class="box">
+					<a href="img/1.jpg" class="swipebox" title="Juris">
+						<img src="img/1.jpg" alt="image">
+					</a>
+				</li>
+				<li class="box">
+					<a href="img/2.jpg" class="swipebox" title="Nerd Style">
+						<img src="img/2.jpg" alt="image">
+					</a>
+				</li>
+				<li class="box">
+					<a href="img/11.jpg" class="swipebox" title="IDS">
+						<img src="img/11.jpg" alt="image">
+					</a>
+				</li>
+				<li class="box">
+					<a href="img/vector.jpg" class="swipebox" title="Saitama">
+						<img src="img/vector.jpg" alt="image">
+					</a>
+				</li>
+				<li class="box">
+					<a href="img/10.jpg" class="swipebox" title="Parents">
+						<img src="img/10.jpg" alt="image">
+					</a>
+				</li>
+				<li class="box">
+					<a href="img/3.jpg" class="swipebox" title="Beedee">
+						<img src="img/3.jpg" alt="image">
+					</a>
+				</li>
+				<li class="box">
+					<a href="img/7.jpg" class="swipebox" title="Kirby">
+						<img src="img/7.jpg" alt="image">
+					</a>
+				</li>
+				<li class="box">
+					<a href="img/5.jpg" class="swipebox" title="Adrian">
+						<img src="img/5.jpg" alt="image">
+					</a>
+				</li>
+				<li class="box">
+					<a href="img/4.jpg" class="swipebox" title="Jharry">
+						<img src="img/4.jpg" alt="image">
+					</a>
+				</li>
+				<li class="box">
+					<a href="img/6.jpg" class="swipebox" title="Auie">
+						<img src="img/6.jpg" alt="image">
+					</a>
+				</li>
+				<li class="box">
+					<a href="img/8.jpg" class="swipebox" title="Jamquinn">
+						<img src="img/8.jpg" alt="image">
+					</a>
+				</li>
+				<li class="box">
+					<a href="img/9.jpg" class="swipebox" title="Nikka">
+						<img src="img/9.jpg" alt="image">
+					</a>
+				</li>
+				
+			</ul>
+		</div>
+	</section>
+
+	
+		</div>
+</div>
+	<div class="footer">
+		<center>
+		Website design by: Juris | Copyright© 2017
+		</center>
+	</div>
+	
+	
+	
+	
+	<script src="lib/ios-orientationchange-fix.js"></script>
+	<script src="lib/jquery-2.1.0.min.js"></script>
+	<script src="src/js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox();
+			
+			/* Video */
+			$( '.swipebox-video' ).swipebox();
+
+			/* Dynamic Gallery */
+			$( '#gallery' ).click( function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'http://swipebox.csag.co/mages/image-1.jpg', title : 'My Caption' },
+					{ href : 'http://swipebox.csag.co/images/image-2.jpg', title : 'My Second Caption' }
+				] );
+			} );
+
+      });
+	</script>
+	</body>
+</html>

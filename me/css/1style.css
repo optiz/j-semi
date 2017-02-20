@@ -1,0 +1,82 @@
+body{
+background-color: #303030;
+color: white;
+font-family: arial;
+text-align: left;
+
+}
+.body{
+    margin: 0 auto;
+    width: 40%;
+    clear: both;
+ }
+.logo{
+     height: auto;
+	 width: 100%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.ico{
+	height: auto;
+	width: 100%;
+	float: right;
+    height: auto;
+
+	
+}
+.ico ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+}
+
+.ico li a {
+display: block;
+padding: 10px 10px;
+
+}
+.ico img{
+    width: 25px;
+    height: 25px;
+}
+.ico img:hover{
+background-color: white;
+border-radius: 150px;
+}
+.GIT{
+	float: left;
+	height: auto;
+	width: 100%;
+}
+.GIT ul{
+    list-style: none;
+    margin: 0 auto;
+}
+.GIT ul li{
+    float: left;
+    display: inline;
+    
+}
+.GIT ul li a {
+display: block;
+color: #888888;
+font-family: death star;
+font-size: 100%;
+padding: 10px 20px;
+text-decoration: none;
+border-color: #888888;
+}
+.GIT ul li a:hover:not(.active) {
+color: white;
+}
+.active {
+    background-color: #161616;
+	border-radius:3px;
+	text-decoration:none;
+	
+}
+

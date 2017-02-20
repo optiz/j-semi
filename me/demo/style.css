@@ -1,0 +1,1 @@
+#box-container{margin:0;padding-left:1%}.box{list-style-type:none;float:left;margin-bottom:2%;margin-top:2%;margin-left:2%;margin-right:2%;width:30%}.box:nth-child(3n+1){clear:both;margin-left:0}.box:nth-child(3n+0){margin-right:0}.box a{display:block;width:100%;height:auto}.box a img{-webkit-back-visibility:hidden;display:block;width:100%;height:auto;vertical-align:bottom}
